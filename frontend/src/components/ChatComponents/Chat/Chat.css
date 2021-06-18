@@ -1,0 +1,55 @@
+.outerContainerc2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  top: 0rem;
+  left: 0;
+  padding-bottom: 8rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background-size: cover;
+  background: url(../icons/HikingChatBackround.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+
+.containerc2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: whitesmoke;
+  border-radius: 0px;
+  height: 60%;
+  width: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .outerContainerc2 {
+    height: 100%;
+  }
+
+  .containerc2 {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ExitButton {
+  background-color: red;
+  border-radius: 15px;
+  font: bolder;
+  font-size: 16px;
+  
+  display:flexbox;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 10px 15px;
+  position:absolute;
+  top: 75%;
+  left: 40%;
+}

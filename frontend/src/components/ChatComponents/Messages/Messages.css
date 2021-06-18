@@ -1,0 +1,8 @@
+.messages {
+  padding: 5% 0;
+  overflow: auto;
+  flex: auto;
+  text-align: left;
+  text-decoration: none;
+  color: #008cba;
+}
